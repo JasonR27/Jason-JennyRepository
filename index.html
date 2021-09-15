@@ -30,13 +30,21 @@
 
   <form id="survey-form">
     <label for="name" id="name-label">Name:</label>
-      <input id="name" required></input>
+      <input id="name" placeholder="Name" required></input>
     
     <label for="email" id="email-label">Email:</label>
-      <input type="email" name="email" id="email" required></input>
+      <input type="email" placeholder="Email" name="email" id="email" required></input>
     
     <label for="number" id="number-label">Number:</label>
-      <input id="number" type="number" min="1000000000" max="9999999999"></input>
+      <input id="number" placeholder="Number" type="number" min="1000000000" max="9999999999"></input>
+
+      <select id="dropdown">
+        <option >Student</option>
+        <option >Professor</option>
+        <option >Engineer</option>
+        <option >Medic</option>
+        <option >Accountant</option>
+      </select>
     
   </form>
 
