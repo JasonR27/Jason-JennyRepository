@@ -29,11 +29,15 @@
   </p>
 
   <form id="survey-form">
-    <p id="p-name">Name:</p>
-    <input id="name" required></input>
-    <p id="p-email">Email:</p>
-    <input type="email" name="email" id="email" required></input>
-    <input id="number" type="number"></input>
+    <label for="name" id="name-label">Name:</label>
+      <input id="name" required></input>
+    
+    <label for="email" id="email-label">Email:</label>
+      <input type="email" name="email" id="email" required></input>
+    
+    <label for="number" id="number-label">Number:</label>
+      <input id="number" type="number" min="1000000000" max="9999999999"></input>
+    
   </form>
 
 </body>
